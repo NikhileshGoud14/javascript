@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+  <head>
+    <title>Register Form</title>
+    <meta Name="Generator" content="Editplus">
+    <meta Name="Author" content="">
+    <meta Name="Keywords" content="">
+    <meta Name="Description" content="">
+    <link rel="stylesheet" href="signupvalidation.css" />
+    <link rel="stylesheet" href="C:\Users\Dell\Downloads\fontawesome-free-5.14.0-web\fontawesome-free-5.14.0-web\css\all.min.css">
+    <script type="text/javascript" src="signupvalidation.js"></script>
+  </head>
+  <body onload="onload()">
+    <div class="container">
+      <div class="form-name">Registration Form</div>
+    <div>
+      <form id="signup-form">
+        <div class="field-name-block">
+          <label class="field-name">First Name</label>
+        </div>
+        <div class="field-input-block">
+          <input id="firstName" type="text" placeholder="First Name" maxlength="15"/>
+          <i id="firstNameWarning" class="fas fa-exclamation-circle warning warning-hide"></i>
+          </div>
+          <div class="field-name-block">
+            <label class="field-name">Last Name</label>
+          </div>
+          <div class="field-input-block">
+            <input id="lastName" type="text" placeholder="Last Name" maxlenght="15"/>
+            <i id="lastNameWarning" class="fas fa-exclamation-circle warning warning-hide"></i>
+          </div>
+          <div class="field-name-block">
+            <label class="field-name">Email</label>
+          </div> 
+          <div class="field-input-block">
+             <input id="email" type="text" placeholder="email@example.com"/>
+             <i id="emailWarning" class="fas fa-exclamation-circle warning warning-hide"></i>
+          </div>
+          <div class="field-name-block">
+               <label class="field-name">Mobile</label>
+           </div>
+           <div class="field-input-block">
+               <input id="mobile" type="text" placeholder="0000000000" maxlength="10"/>
+               <i id="mobileWarning" class="fas fa-exclamation-circle warning warning-hide"></i>
+            </div>
+           <div class="field-name-block">
+                <label class="field-name">Password</label>
+            </div>
+            <div class="field-input-block">
+                 <input id="createPW" type="password" placeholder="Password" maxlength="20"/>
+                 <i id="createWarning" class="fas fa-exclamation-circle warning warning-hide"></i>
+             </div>
+                <div class="buttons-block">
+                  <input type="button" value="Submit" class="button" onclick="onSubmitClick()"/>
+                  <input type="reset" value="Cancel" class="button" onclick="onCancelClick()"/>
+               </div>
+             </form>
+            </div>
+          </div>
+  </body>
+</html>
